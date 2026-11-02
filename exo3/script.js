@@ -7,10 +7,9 @@ const Students = [
 ];
 
 function B(moyenne) {
-  return moyenne >= 10; // opérateur de comparaison (slide X)
+  return moyenne >= 10; 
 }
 
-// Fonction A : parcourt les étudiants, calcule la moyenne et appelle B
 function A() {
   for (const s of Students) {
 
